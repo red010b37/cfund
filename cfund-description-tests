@@ -1,0 +1,121 @@
+mvSb2t5Piq2STxChHTCcn32faorzMLdC5M
+
+
+No votes test
+--------------------------------------------------------------------------------------------
+Expires Monday, 30 July 2018 04:09:26
+
+createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "P Test 1"  
+
+{
+  "hash": "679c847d1b6a061216dd2bdf379c6491245783af5b0dc2d2da409eb888912200",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"P Test 1\"}"
+}
+
+
+Super long description
+--------------------------------------------------------------------------------------------
+createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper justo ac neque mollis, a cursus nisl placerat. Aliquam ipsum quam, congue vitae vulputate id, ullamcorper vel libero. Phasellus et tristique justo. Curabitur eu porta magna, vitae auctor libero. Fusce tellus ipsum, aliquet nec consequat ut, dictum eget libero. Maecenas eu velit quam. Nunc ac libero in purus vestibulum feugiat quis nec urna. Donec faucibus consequat dignissim. Donec ornare turpis nec lobortis vestibulum. Vivamus lobortis vel massa ac ultrices. Ut vel eros in elit vehicula luctus vel vitae justo. Praesent quis semper nisi. Vivamus viverra blandit ex. Sed nec fringilla quam. Nulla condimentum rhoncus erat sit amet vulputate."  
+
+
+Super long description
+--------------------------------------------------------------------------------------------
+createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "IM LOOOOONNNNNGGGG, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper justo ac neque mollis, a cursus nisl placerat. Aliquam ipsum quam, congue vitae vulputate id, ullamcorper vel libero. Phasellus et tristique justo. Curabitur eu porta magna, vitae auctor libero. Fusce tellus ipsum, aliquet nec consequat ut, dictum eget libero. Maecenas eu velit quam. Nunc ac libero in purus vestibulum feugiat quis nec urna. Donec faucibus consequat dignissim. Donec ornare turpis nec lobortis vestibulum. Vivamus lobortis vel massa ac ultrices. Ut vel eros in elit vehicula luctus vel vitae justo. Praesent quis semper nisi. Vivamus viverra blandit ex. Sed nec fringilla quam. Nulla condimentum rhoncus erat sit amet vulputate. Phasellus viverra sagittis consequat. Sed dapibus augue ac enim dignissim, at consequat arcu ornare. Vestibulum facilisis pretium aliquet." 
+
+Max description
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "IM LOOOOONNNNNGGGG, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper justo ac neque mollis, a cursus nisl placerat. Aliquam ipsum quam, congue vitae vulputate id, ullamcorper vel libero. Phasellus et tristique justo. Curabitur eu porta magna, vitae auctor libero. Fusce tellus ipsum, aliquet nec consequat ut, dictum eget libero. Maecenas eu velit quam. Nunc ac libero in purus vestibulum feugiat quis nec urna. Donec faucibus consequat dignissim. Donec ornare turpis nec lobortis vestibulum. Vivamus lobortis vel massa ac ultrices. Ut vel eros in elit vehicula luctus vel vitae justo. Praesent quis semper nisi. Vivamus viverra blandit ex. Sed nec fringilla quam. Nulla condimentum rhoncus erat sit amet vulputate. Phasellus viverra sagittis consequat. Sed dapibus augue ac enim dignissim, at consequat arcu ornare. Vestibulum facilisis pretium aliquet. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+
+{
+  "hash": "1080caf89eca5ee57733b8ed9a130387609dc996e98fb672a7eda944b34f2268",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"IM LOOOOONNNNNGGGG, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper justo ac neque mollis, a cursus nisl placerat. Aliquam ipsum quam, congue vitae vulputate id, ullamcorper vel libero. Phasellus et tristique justo. Curabitur eu porta magna, vitae auctor libero. Fusce tellus ipsum, aliquet nec consequat ut, dictum eget libero. Maecenas eu velit quam. Nunc ac libero in purus vestibulum feugiat quis nec urna. Donec faucibus consequat dignissim. Donec ornare turpis nec lobortis vestibulum. Vivamus lobortis vel massa ac ultrices. Ut vel eros in elit vehicula luctus vel vitae justo. Praesent quis semper nisi. Vivamus viverra blandit ex. Sed nec fringilla quam. Nulla condimentum rhoncus erat sit amet vulputate. Phasellus viverra sagittis consequat. Sed dapibus augue ac enim dignissim, at consequat arcu ornare. Vestibulum facilisis pretium aliquet. xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"}"
+}
+
+Description Enters and white space
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "I 
+Have
+Enters
+
+
+
+And      white     space "
+
+{
+  "hash": "ed98a16b8932d92550f7a10d0fdef72e6eb33af85e70168f112451dacc490fad",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"I \\nHave\\nEnters\\n\\n\\n\\nAnd      white     space \"}"
+}
+
+
+Description All chars A -E 
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "Ⓐ ⓐ ⒜ A a Ạ ạ Å å Ä ä Ả ả Ḁ ḁ Ấ ấ Ầ ầ Ẩ ẩ Ȃ ȃ Ẫ ẫ Ậ ậ Ắ ắ Ằ ằ Ẳ ẳ Ẵ ẵ Ặ ặ Ā ā Ą ą Ȁ ȁ Ǻ ǻ Ȧ ȧ Á á Ǟ ǟ Ǎ ǎ À à Ã ã Ǡ ǡ Â â Ⱥ ⱥ Æ æ Ǣ ǣ Ǽ ǽ Ɐ Ꜳ ꜳ Ꜹ ꜹ Ꜻ ꜻ Ɑ ℀ ⅍ ℁ ª Ⓑ ⓑ ⒝ B b Ḃ ḃ Ḅ ḅ Ḇ ḇ Ɓ Ƀ ƀ Ƃ ƃ Ƅ ƅ ℬ Ⓒ ⓒ ⒞ C c Ḉ ḉ Ć ć Ĉ ĉ Ċ ċ Č č Ç ç Ƈ ƈ Ȼ ȼ ℂ ℃ Ɔ Ꜿ ꜿ ℭ ℅ ℆ ℄ Ⓓ ⓓ ⒟ D d Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ď ď Ɗ Ƌ ƌ Ɖ Đ đ ȡ Ǳ ǲ ǳ Ǆ ǅ ǆ ȸ ⅅ ⅆ Ⓔ ⓔ ⒠ E e Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ẹ ẹ Ẻ ẻ Ế ế Ẽ ẽ Ề ề Ể ể Ễ ễ Ệ ệ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě È è É é Ê ê Ë ë Ȅ ȅ Ȩ ȩ Ȇ ȇ Ǝ ⱻ Ɇ ɇ Ə ǝ ℰ ⱸ ℯ ℮ ℇ Ɛ"  
+
+
+{
+  "hash": "ba8c53b7c592f062547e086d0b6dc83a9075e14f3ee37b69b93bc7ce25426129",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"Ⓐ ⓐ ⒜ A a Ạ ạ Å å Ä ä Ả ả Ḁ ḁ Ấ ấ Ầ ầ Ẩ ẩ Ȃ ȃ Ẫ ẫ Ậ ậ Ắ ắ Ằ ằ Ẳ ẳ Ẵ ẵ Ặ ặ Ā ā Ą ą Ȁ ȁ Ǻ ǻ Ȧ ȧ Á á Ǟ ǟ Ǎ ǎ À à Ã ã Ǡ ǡ Â â Ⱥ ⱥ Æ æ Ǣ ǣ Ǽ ǽ Ɐ Ꜳ ꜳ Ꜹ ꜹ Ꜻ ꜻ Ɑ ℀ ⅍ ℁ ª Ⓑ ⓑ ⒝ B b Ḃ ḃ Ḅ ḅ Ḇ ḇ Ɓ Ƀ ƀ Ƃ ƃ Ƅ ƅ ℬ Ⓒ ⓒ ⒞ C c Ḉ ḉ Ć ć Ĉ ĉ Ċ ċ Č č Ç ç Ƈ ƈ Ȼ ȼ ℂ ℃ Ɔ Ꜿ ꜿ ℭ ℅ ℆ ℄ Ⓓ ⓓ ⒟ D d Ḋ ḋ Ḍ ḍ Ḏ ḏ Ḑ ḑ Ḓ ḓ Ď ď Ɗ Ƌ ƌ Ɖ Đ đ ȡ Ǳ ǲ ǳ Ǆ ǅ ǆ ȸ ⅅ ⅆ Ⓔ ⓔ ⒠ E e Ḕ ḕ Ḗ ḗ Ḙ ḙ Ḛ ḛ Ḝ ḝ Ẹ ẹ Ẻ ẻ Ế ế Ẽ ẽ Ề ề Ể ể Ễ ễ Ệ ệ Ē ē Ĕ ĕ Ė ė Ę ę Ě ě È è É é Ê ê Ë ë Ȅ ȅ Ȩ ȩ Ȇ ȇ Ǝ ⱻ Ɇ ɇ Ə ǝ ℰ ⱸ ℯ ℮ ℇ Ɛ\"}"
+}
+
+
+Description All chars F-N
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "CHAR TEST F - N Ⓕ ⓕ ⒡ F f Ḟ ḟ Ƒ ƒ ꜰ Ⅎ ⅎ ꟻ ℱ ℻ Ⓖ ⓖ ⒢ G g Ɠ Ḡ ḡ Ĝ ĝ Ğ ğ Ġ ġ Ǥ ǥ Ǧ ǧ Ǵ ℊ ⅁ ǵ Ģ ģ Ⓗ ⓗ ⒣ H h Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ĥ ĥ Ȟ ȟ Ħ ħ Ⱨ ⱨ Ꜧ ℍ Ƕ ẖ ℏ ℎ ℋ ℌ ꜧ Ⓘ ⓘ ⒤ I i Ḭ ḭ Ḯ ḯ Ĳ ĳ Í í Ì ì Î î Ï ï Ĩ ĩ Ī ī Ĭ ĭ Į į Ǐ ǐ ı ƚ Ỻ ⅈ ⅉ ℹ ℑ ℐ Ⓙ ⓙ ⒥ J j Ĵ ĵ Ɉ ɉ ȷ ⱼ ǰ Ⓚ ⓚ ⒦ K k Ḱ ḱ Ḳ ḳ Ḵ ḵ Ķ ķ Ƙ ƙ Ꝁ ꝁ Ꝃ ꝃ Ꝅ ꝅ Ǩ ǩ Ⱪ ⱪ ĸ Ⓛ ⓛ ⒧ L l Ḷ ḷ Ḹ ḹ Ḻ ḻ Ḽ ḽ Ĺ ĺ Ļ ļ Ľ ľ Ŀ ŀ Ł ł Ỉ ỉ Ⱡ ⱡ Ƚ ꝉ Ꝉ Ɫ Ǉ ǈ ǉ Ị İ ị ꞁ ⅃ ⅂ Ȉ ȉ Ȋ ȋ ℓ ℒ Ⓜ ⓜ ⒨ M m Ḿ ḿ Ṁ ṁ Ṃ ṃ ꟿ ꟽ Ɱ Ɯ ℳ Ⓝ ⓝ ⒩ N n Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ń ń Ņ ņ Ň ň Ǹ ǹ Ñ ñ Ƞ ƞ Ŋ ŋ Ɲ ŉ Ǌ ǋ ǌ ȵ ℕ №"  
+
+{
+  "hash": "cc624419fadd68976fe258ae732d99e9971f1536fe637f7133cf17da6145c77c",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"CHAR TEST F - N Ⓕ ⓕ ⒡ F f Ḟ ḟ Ƒ ƒ ꜰ Ⅎ ⅎ ꟻ ℱ ℻ Ⓖ ⓖ ⒢ G g Ɠ Ḡ ḡ Ĝ ĝ Ğ ğ Ġ ġ Ǥ ǥ Ǧ ǧ Ǵ ℊ ⅁ ǵ Ģ ģ Ⓗ ⓗ ⒣ H h Ḣ ḣ Ḥ ḥ Ḧ ḧ Ḩ ḩ Ḫ ḫ Ĥ ĥ Ȟ ȟ Ħ ħ Ⱨ ⱨ Ꜧ ℍ Ƕ ẖ ℏ ℎ ℋ ℌ ꜧ Ⓘ ⓘ ⒤ I i Ḭ ḭ Ḯ ḯ Ĳ ĳ Í í Ì ì Î î Ï ï Ĩ ĩ Ī ī Ĭ ĭ Į į Ǐ ǐ ı ƚ Ỻ ⅈ ⅉ ℹ ℑ ℐ Ⓙ ⓙ ⒥ J j Ĵ ĵ Ɉ ɉ ȷ ⱼ ǰ Ⓚ ⓚ ⒦ K k Ḱ ḱ Ḳ ḳ Ḵ ḵ Ķ ķ Ƙ ƙ Ꝁ ꝁ Ꝃ ꝃ Ꝅ ꝅ Ǩ ǩ Ⱪ ⱪ ĸ Ⓛ ⓛ ⒧ L l Ḷ ḷ Ḹ ḹ Ḻ ḻ Ḽ ḽ Ĺ ĺ Ļ ļ Ľ ľ Ŀ ŀ Ł ł Ỉ ỉ Ⱡ ⱡ Ƚ ꝉ Ꝉ Ɫ Ǉ ǈ ǉ Ị İ ị ꞁ ⅃ ⅂ Ȉ ȉ Ȋ ȋ ℓ ℒ Ⓜ ⓜ ⒨ M m Ḿ ḿ Ṁ ṁ Ṃ ṃ ꟿ ꟽ Ɱ Ɯ ℳ Ⓝ ⓝ ⒩ N n Ṅ ṅ Ṇ ṇ Ṉ ṉ Ṋ ṋ Ń ń Ņ ņ Ň ň Ǹ ǹ Ñ ñ Ƞ ƞ Ŋ ŋ Ɲ ŉ Ǌ ǋ ǌ ȵ ℕ №\"}"
+}
+
+
+Description All chars O-S
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "CHAR TEST F - N Ⓞ ⓞ ⒪ O o Ö ö Ṏ ṏ Ṍ ṍ Ṑ ṑ Ṓ ṓ Ȫ ȫ Ȭ ȭ Ȯ ȯ Ȱ ȱ Ǫ ǫ Ǭ ǭ Ọ ọ Ỏ ỏ Ố ố Ồ ồ Ổ ổ Ỗ ỗ Ộ ộ Ớ ớ Ờ ờ Ở ở Ỡ ỡ Ợ ợ Ơ ơ Ō ō Ŏ ŏ Ő ő Ò ò Ó ó Ô ô Õ õ Ǒ ǒ Ȍ ȍ Ȏ ȏ Œ œ Ø ø Ǿ ǿ Ꝋ Ꝏ ꝏ ⍥ ⍤ ℴ Ⓟ ⓟ ⒫ ℗ P p Ṕ ṕ Ṗ ṗ Ƥ ƥ Ᵽ ℙ Ƿ ꟼ ℘ Ⓠ ⓠ ⒬ Q q Ɋ ɋ ℚ ℺ ȹ Ⓡ ⓡ ⒭ R r Ŕ ŕ Ŗ ŗ Ř ř Ṙ ṙ Ṛ ṛ Ṝ ṝ Ṟ ṟ Ȑ ȑ Ȓ ȓ Ɍ ɍ Ʀ Ꝛ ꝛ Ɽ ℞ ℜ ℛ ℟ ℝ Ⓢ ⓢ ⒮ S s Ṡ ṡ Ṣ ṣ Ṥ ṥ Ṧ ṧ Ṩ ṩ Ś ś Ŝ ŝ Ş ş Š š Ș ș ȿ ꜱ Ƨ ƨ Ϩ ϩ ẞ ß ẛ ẜ ẝ ℠ "  
+
+{
+  "hash": "576bfbfbc4776c5aba1cee0d01c93bcebd0220a15caed03527311218ad2cfb7b",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"CHAR TEST F - N Ⓞ ⓞ ⒪ O o Ö ö Ṏ ṏ Ṍ ṍ Ṑ ṑ Ṓ ṓ Ȫ ȫ Ȭ ȭ Ȯ ȯ Ȱ ȱ Ǫ ǫ Ǭ ǭ Ọ ọ Ỏ ỏ Ố ố Ồ ồ Ổ ổ Ỗ ỗ Ộ ộ Ớ ớ Ờ ờ Ở ở Ỡ ỡ Ợ ợ Ơ ơ Ō ō Ŏ ŏ Ő ő Ò ò Ó ó Ô ô Õ õ Ǒ ǒ Ȍ ȍ Ȏ ȏ Œ œ Ø ø Ǿ ǿ Ꝋ Ꝏ ꝏ ⍥ ⍤ ℴ Ⓟ ⓟ ⒫ ℗ P p Ṕ ṕ Ṗ ṗ Ƥ ƥ Ᵽ ℙ Ƿ ꟼ ℘ Ⓠ ⓠ ⒬ Q q Ɋ ɋ ℚ ℺ ȹ Ⓡ ⓡ ⒭ R r Ŕ ŕ Ŗ ŗ Ř ř Ṙ ṙ Ṛ ṛ Ṝ ṝ Ṟ ṟ Ȑ ȑ Ȓ ȓ Ɍ ɍ Ʀ Ꝛ ꝛ Ɽ ℞ ℜ ℛ ℟ ℝ Ⓢ ⓢ ⒮ S s Ṡ ṡ Ṣ ṣ Ṥ ṥ Ṧ ṧ Ṩ ṩ Ś ś Ŝ ŝ Ş ş Š š Ș ș ȿ ꜱ Ƨ ƨ Ϩ ϩ ẞ ß ẛ ẜ ẝ ℠ \"}"
+}
+
+
+
+Description All chars T - Z
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "Ⓣ ⓣ ⒯ T t Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ţ ţ Ť ť Ŧ ŧ Ț ț Ⱦ ⱦ Ƭ Ʈ ƫ ƭ ẗ ȶ ℡ ™ Ⓤ ⓤ ⒰ U u Ṳ ṳ Ṵ ṵ Ṷ ṷ Ṹ ṹ Ṻ ṻ Ủ ủ Ụ ụ Ứ ứ Ừ ừ Ử ử Ữ ữ Ự ự Ũ ũ Ū ū Ŭ ŭ Ů ů Ű ű Ǚ ǚ Ǘ ǘ Ǜ ǜ Ų ų Ǔ ǔ Ȕ ȕ Û û Ȗ ȗ Ù ù Ú ú Ü ü Ư ư Ʉ Ʋ Ʊ Ⓥ ⓥ ⒱ V v Ṽ ṽ Ṿ ṿ Ʌ ℣ Ỽ ⱱ ⱴ ⱽ Ⓦ ⓦ ⒲ W w Ẁ ẁ Ẃ ẃ Ẅ ẅ Ẇ ẇ Ẉ ẉ Ŵ ŵ Ⱳ ⱳ Ϣ ϣ ẘ Ⓧ ⓧ ⒳ X x Ẋ ẋ Ẍ ẍ ℵ × Ⓨ ⓨ ⒴ y Y Ẏ ẏ Ỿ ỿ Ỳ ỳ Ỵ ỵ Ỷ ỷ Ỹ ỹ Ŷ ŷ Ƴ ƴ Ÿ ÿ Ý ý Ɏ ɏ Ȳ ȳ Ɣ ẙ ⅄ ℽ Ⓩ ⓩ ⒵ Z z Ẑ ẑ Ẓ ẓ Ẕ ẕ Ź ź Ż ż Ž ž Ȥ ȥ Ⱬ ⱬ Ƶ ƶ ɀ ℨ ℤ"  
+
+{
+  "hash": "80b06a9782d3ad35d557d722b97643a95a3c364ff50e2b3ee1fb328fb4217d10",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"Ⓣ ⓣ ⒯ T t Ṫ ṫ Ṭ ṭ Ṯ ṯ Ṱ ṱ Ţ ţ Ť ť Ŧ ŧ Ț ț Ⱦ ⱦ Ƭ Ʈ ƫ ƭ ẗ ȶ ℡ ™ Ⓤ ⓤ ⒰ U u Ṳ ṳ Ṵ ṵ Ṷ ṷ Ṹ ṹ Ṻ ṻ Ủ ủ Ụ ụ Ứ ứ Ừ ừ Ử ử Ữ ữ Ự ự Ũ ũ Ū ū Ŭ ŭ Ů ů Ű ű Ǚ ǚ Ǘ ǘ Ǜ ǜ Ų ų Ǔ ǔ Ȕ ȕ Û û Ȗ ȗ Ù ù Ú ú Ü ü Ư ư Ʉ Ʋ Ʊ Ⓥ ⓥ ⒱ V v Ṽ ṽ Ṿ ṿ Ʌ ℣ Ỽ ⱱ ⱴ ⱽ Ⓦ ⓦ ⒲ W w Ẁ ẁ Ẃ ẃ Ẅ ẅ Ẇ ẇ Ẉ ẉ Ŵ ŵ Ⱳ ⱳ Ϣ ϣ ẘ Ⓧ ⓧ ⒳ X x Ẋ ẋ Ẍ ẍ ℵ × Ⓨ ⓨ ⒴ y Y Ẏ ẏ Ỿ ỿ Ỳ ỳ Ỵ ỵ Ỷ ỷ Ỹ ỹ Ŷ ŷ Ƴ ƴ Ÿ ÿ Ý ý Ɏ ɏ Ȳ ȳ Ɣ ẙ ⅄ ℽ Ⓩ ⓩ ⒵ Z z Ẑ ẑ Ẓ ẓ Ẕ ẕ Ź ź Ż ż Ž ž Ȥ ȥ Ⱬ ⱬ Ƶ ƶ ɀ ℨ ℤ\"}"
+}
+
+
+
+Description All chars Arrows 1
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "↪ ↩ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↦ ↥ ↧ ↨ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↴ ↳ ↵ ↶ ↷ ↸ ↹ ↺ ↻ ⟲ ⟳ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌ ⇍ ⇏ ⇎ ⇑ ⇓ ⇐ ⇒ ⇔ ⇕ ⇖ ⇗ ⇘ ⇙ ⇳ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥ ⇦ ⇨ ⇩ ⇪ ⇧ ⇫ ⇬ ⇭ ⇮ ⇯ ⇰ ⇱ ⇲ ⇴ ⇵ ⇶ ⇷ ⇸ ⇹ ⇺ ⇻ ⇼ ⇽ ⇾ ⇿ ⟰ ⟱ ⟴ ⟵ ⟶ ⟷ ⟸ ⟹ ⟽ ⟾ ⟺ ⟻ ⟼ ⟿ ⤀ ⤁ ⤅ ⤂ ⤃ ⤄ ⤆ ⤇ ⤈ ⤉ ⤊ ⤋ ⤌ ⤍ ⤎ ⤏ ⤐ ⤑ ⤒ ⤓ ⤔ ⤕ ⤖ ⤗ ⤘ ⤙ ⤚ ⤛ ⤜ ⤝ ⤞ ⤟ ⤠ ⤡ ⤢ ⤣ ⤤ ⤥ ⤦ ⤧ ⤨ ⤩ ⤪ ⤭ ⤮ ⤯ ⤰ ⤱ ⤲ ⤳ ⤻ ⤸ ⤾ ⤿ ⤺ ⤼ ⤽ ⤴ ⤵ ⤶ ⤷ ⤹ ⥀ ⥁ ⥂ ⥃ ⥄ ⥅ ⥆ ⥇ ⥈ ⥉ ⥒ ⥓ ⥔ ⥕ ⥖ ⥗ ⥘ ⥙ ⥚ ⥛ ⥜"
+
+
+{
+  "hash": "8caac948bf033838e9c0d0850f9f6b8684d993da16aaea8537c5107bb90ef0cb",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"↪ ↩ ← ↑ → ↓ ↔ ↕ ↖ ↗ ↘ ↙ ↚ ↛ ↜ ↝ ↞ ↟ ↠ ↡ ↢ ↣ ↤ ↦ ↥ ↧ ↨ ↫ ↬ ↭ ↮ ↯ ↰ ↱ ↲ ↴ ↳ ↵ ↶ ↷ ↸ ↹ ↺ ↻ ⟲ ⟳ ↼ ↽ ↾ ↿ ⇀ ⇁ ⇂ ⇃ ⇄ ⇅ ⇆ ⇇ ⇈ ⇉ ⇊ ⇋ ⇌ ⇍ ⇏ ⇎ ⇑ ⇓ ⇐ ⇒ ⇔ ⇕ ⇖ ⇗ ⇘ ⇙ ⇳ ⇚ ⇛ ⇜ ⇝ ⇞ ⇟ ⇠ ⇡ ⇢ ⇣ ⇤ ⇥ ⇦ ⇨ ⇩ ⇪ ⇧ ⇫ ⇬ ⇭ ⇮ ⇯ ⇰ ⇱ ⇲ ⇴ ⇵ ⇶ ⇷ ⇸ ⇹ ⇺ ⇻ ⇼ ⇽ ⇾ ⇿ ⟰ ⟱ ⟴ ⟵ ⟶ ⟷ ⟸ ⟹ ⟽ ⟾ ⟺ ⟻ ⟼ ⟿ ⤀ ⤁ ⤅ ⤂ ⤃ ⤄ ⤆ ⤇ ⤈ ⤉ ⤊ ⤋ ⤌ ⤍ ⤎ ⤏ ⤐ ⤑ ⤒ ⤓ ⤔ ⤕ ⤖ ⤗ ⤘ ⤙ ⤚ ⤛ ⤜ ⤝ ⤞ ⤟ ⤠ ⤡ ⤢ ⤣ ⤤ ⤥ ⤦ ⤧ ⤨ ⤩ ⤪ ⤭ ⤮ ⤯ ⤰ ⤱ ⤲ ⤳ ⤻ ⤸ ⤾ ⤿ ⤺ ⤼ ⤽ ⤴ ⤵ ⤶ ⤷ ⤹ ⥀ ⥁ ⥂ ⥃ ⥄ ⥅ ⥆ ⥇ ⥈ ⥉ ⥒ ⥓ ⥔ ⥕ ⥖ ⥗ ⥘ ⥙ ⥚ ⥛ ⥜\"}"
+}
+
+
+Description All chars Arrows 2
+--------------------------------------------------------------------------------------------
+./src/navcoin-cli -testnet createproposal "mvSb2t5Piq2STxChHTCcn32faorzMLdC5M" 1000 1532923766 "⥝ ⥞ ⥟ ⥠ ⥡ ⥢ ⥣ ⥤ ⥥ ⥦ ⥧ ⥨ ⥩ ⥪ ⥫ ⥬ ⥭ ⥮ ⥯ ⥰ ⥱ ⥲ ⥳ ⥴ ⥵ ⥶ ⥷ ⥸ ⥹ ⥺ ⥻ ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➳ ➴ ➵ ➶ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ➾ ⬀ ⬁ ⬂ ⬃ ⬄ ⬅ ⬆ ⬇ ⬈ ⬉ ⬊ ⬋ ⬌ ⬍ ⏎ ▲ ▼ ◀ ▶ ⬎ ⬏ ⬐ ⬑ ☇ ☈ ⍃ ⍄ ⍇ ⍈ ⍐ ⍗ ⍌ ⍓ ⍍ ⍔ ⍏ ⍖ ⍅ ⍆"
+
+{
+  "hash": "f68737fd1929de9a7c99a124c719b48fec63371d613730649cc18dd3d0fa7bc3",
+  "strDZeel": "{\"n\":100000000000,\"a\":\"mvSb2t5Piq2STxChHTCcn32faorzMLdC5M\",\"d\":1532923766,\"s\":\"⥝ ⥞ ⥟ ⥠ ⥡ ⥢ ⥣ ⥤ ⥥ ⥦ ⥧ ⥨ ⥩ ⥪ ⥫ ⥬ ⥭ ⥮ ⥯ ⥰ ⥱ ⥲ ⥳ ⥴ ⥵ ⥶ ⥷ ⥸ ⥹ ⥺ ⥻ ➔ ➘ ➙ ➚ ➛ ➜ ➝ ➞ ➟ ➠ ➡ ➢ ➣ ➤ ➥ ➦ ➧ ➨ ➩ ➪ ➫ ➬ ➭ ➮ ➯ ➱ ➲ ➳ ➴ ➵ ➶ ➷ ➸ ➹ ➺ ➻ ➼ ➽ ➾ ⬀ ⬁ ⬂ ⬃ ⬄ ⬅ ⬆ ⬇ ⬈ ⬉ ⬊ ⬋ ⬌ ⬍ ⏎ ▲ ▼ ◀ ▶ ⬎ ⬏ ⬐ ⬑ ☇ ☈ ⍃ ⍄ ⍇ ⍈ ⍐ ⍗ ⍌ ⍓ ⍍ ⍔ ⍏ ⍖ ⍅ ⍆\"}"
+}
+
+
+
+
+
+
+
+
+
